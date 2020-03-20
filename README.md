@@ -1,4 +1,4 @@
-# COVID-19 Global Statistics App
+# Bend the Curve: A COVID-19 Statistics Tracking App
 
 This project is an iOS App inspired by the Robinhood UI/UX to effectively track COVID-19 cases across the World. All data is sourced from the [JHU CSSE Dataset of Novel Coronavirus Cases](https://github.com/CSSEGISandData/COVID-19).
 
