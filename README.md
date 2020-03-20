@@ -8,8 +8,9 @@ Unfortunately, Apple is rejecting COVID-19 apps from the App Store unless they'r
 
 ### Screenshots
 
-![IMG_3110_iphonexspacegrey_portrait](/Users/shomil/Downloads/mockup/IMG_3110_iphonexspacegrey_portrait.png)
+![home](Screenshots/home.png)
 
-![IMG_3112_iphonexspacegrey_portrait](/Users/shomil/Downloads/mockup/IMG_3112_iphonexspacegrey_portrait.png)
+![spain](Screenshots/spain.png)
 
-![IMG_3115_iphonexspacegrey_portrait](/Users/shomil/Downloads/mockup/IMG_3115_iphonexspacegrey_portrait.png)
+![news](Screenshots/news.png)
+
