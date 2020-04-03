@@ -32,7 +32,7 @@ class GraphCell: UITableViewCell, ChartViewDelegate {
         let isGreen = region.oneDayPercent <= 0
         if isGreen {
             percentChangeLabel.textColor = UIColor.flatTurquoise
-            percentChangeLabel.text = "- \(region.oneDayNumber.abbr()) (\(region.oneDayPercent.rounded(toPlaces: 2))%)"
+            percentChangeLabel.text = "\(region.oneDayNumber.abbr()) (\(region.oneDayPercent.rounded(toPlaces: 2))%)"
         } else {
             percentChangeLabel.textColor = UIColor.flatAlizarin
             percentChangeLabel.text = "+ \(region.oneDayNumber.abbr()) (\(region.oneDayPercent.rounded(toPlaces: 2))%)"
@@ -112,10 +112,10 @@ class TickerCell: UITableViewCell, ChartViewDelegate {
             titleLabel.text = region.region
         }
         subtitleLabel.text = "\(region.numCases.abbr()) cases"
-        let isGreen = region.oneDayPercent <= 0
+        let isGreen = region.oneDayPercent <= 0.50
         if isGreen {
             deltaLabel.backgroundColor = UIColor.flatEmerald
-            deltaLabel.text = "-\(Int(region.oneDayPercent.rounded()).abbr())%"
+            deltaLabel.text = "\(Int(region.oneDayPercent.rounded()).abbr())%"
         } else {
             deltaLabel.backgroundColor = UIColor.flatAlizarin
             deltaLabel.text = "+\(Int(region.oneDayPercent.rounded()).abbr())%"

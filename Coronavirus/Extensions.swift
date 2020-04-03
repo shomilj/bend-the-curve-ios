@@ -26,7 +26,10 @@ extension UIViewController: SFSafariViewControllerDelegate {
 extension Int {
     
     func abbr() -> String {
-        return self.abbreviated
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .decimal
+        let formattedNumber = numberFormatter.string(from: NSNumber(value:self))
+        return formattedNumber ?? ""
     }
 
 }

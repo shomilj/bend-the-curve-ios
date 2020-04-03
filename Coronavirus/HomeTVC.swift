@@ -37,8 +37,8 @@ class HomeTVC: UITableViewController {
         
         Firestore.firestore()
             .collection("statistics")
-        .order(by: "tenDayNum", descending: true)
-        .limit(to: 60)
+        .order(by: "confirmedCount", descending: true)
+        .limit(to: 70)
             .addSnapshotListener { (snapshotUW, errorUW) in
                 
                 guard let snapshot = snapshotUW else {
